@@ -1,5 +1,7 @@
 package offer.sword.q3;
 
+import java.util.ArrayList;
+
 /**
  * 查找数组里的重复数字，若有则输出并返回true
  * {2，3，1，0，2，5，3}
