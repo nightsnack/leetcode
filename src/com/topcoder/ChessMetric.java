@@ -45,8 +45,8 @@ package com.topcoder;
  */
 public class ChessMetric {
     public static void main(String[] args) {
-        int[] start = {0, 0}, end = {5, 5};
-        long x = howMany(7, start, end, 5);
+        int[] start = {0, 0}, end = {0, 99};
+        long x = howMany(100, start, end, 50);
         System.out.println("x:" + x);
     }
 
