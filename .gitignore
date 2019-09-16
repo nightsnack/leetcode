@@ -1,6 +1,12 @@
 # Compiled class file
 *.class
 
+* Python Virtual Environment
+/venv
+
+* Java Out Class
+/out
+
 # Log file
 *.log
 
@@ -27,3 +33,4 @@ leetcode.iml
 .idea/project-template.xml
 .idea/vcs.xml
 .idea/workspace.xml
+/.idea/
