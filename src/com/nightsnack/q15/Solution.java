@@ -3,7 +3,12 @@ package com.nightsnack.q15;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-//三个游标请务必记得选定左边第一个开始循环，而不是选定中间那个，选中间那个会出现无法去重的问题，要么少要么多。
+/**
+ * 三个游标请务必记得选定左边第一个开始循环，而不是选定中间那个，选中间那个会出现无法去重的问题，要么少要么多。
+ * Time: O(n2)
+ * Space: O(1)
+ */
+
 public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         if (nums.length < 3) return new ArrayList<>();
